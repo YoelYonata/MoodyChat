@@ -36,18 +36,21 @@ h1 {
 }
 
 div#change_username, section#input_zone {
-    border: 5px outset #c0e9fa;
+    border: 10px none #c0e9fa;
 }
 
 div#change_username {
     height: 3%;
     display: inline-block;
     background-color: #c0e9fa;
+    padding: 10px;
+    border-radius: 10px;
 }
 
 section#chatroom {
     border: 5px inset #c0e9fa;
-    height: 80%;
+    height: 78%;
+    width: 80%;
     overflow: auto;
 }
 
@@ -71,21 +74,24 @@ section#input_zone {
 
 input#username {
     font-family: Arial;
+    border-radius: 12px;
 
 }
 
 input#message {
     display: inline-block;
     width: 88%;
-    height: 70%;
+    height: 75%;
     font-family: 'Arial';
     font-size: 2vh;
+    border-radius: 12px;
 }
 
 button#send_message {
     display: inline-block;
-    height: 70%;
+    height: 75%;
     width: 10%;
+    border-radius: 12px;
 }
 
 p.message {
@@ -114,7 +120,7 @@ p.message {
     width: 20vw;
     border-radius: 15px;
     margin-top: 30px;
-    margin-left: 30px;
+    margin-left: 50px;
     font-family: 'Roboto'; 
 
 }
@@ -124,7 +130,7 @@ p.message {
     border: 10px solid #3066BE;
     border-radius: 15px;
     width: 20vw;
-    margin-left: 70vw;
+    margin-left: 75vw;
     font-family: 'Roboto';
 
 }
