@@ -1,0 +1,133 @@
+@mixin vertical-align {
+  position: relative;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+
+@font-face {
+  font-family: Roboto;
+  src: url('./Roboto-Light.ttf');
+}
+
+* {
+    box-sizing: border-box;
+}
+
+html {
+    height: 100%;
+}
+
+body {
+    margin: 0px;
+    height: 100%;
+}
+
+header {
+    padding-top: 10px;
+    text-align: center;
+    background-color: #7FB7BE;
+}
+
+h1 {
+    font-family: 'Comfortaa';
+    margin: 0px;
+}
+
+div#change_username, section#input_zone {
+    border: 5px outset #7FB7BE;
+}
+
+div#change_username {
+    height: 3%;
+    display: inline-block;
+    background-color: #7FB7BE;
+}
+
+section#chatroom {
+    border: 5px inset #7FB7BE;
+    height: 85%;
+    overflow: auto;
+}
+
+section#username-field{
+    background-color: #7FB7BE;  
+}
+
+section#input_zone {
+    height: 7%;
+    text-align: center;
+    background-color: #7FB7BE;
+}
+
+.vertical-align {
+    position: relative;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+}
+
+input#username {
+    font-family: 'Roboto';
+}
+
+input#message {
+    display: inline-block;
+    width: 88%;
+    height: 70%;
+    font-family: 'Roboto';
+    font-size: 2vh;
+}
+
+button#send_message {
+    display: inline-block;
+    height: 70%;
+    width: 10%;
+}
+
+p.message {
+    margin: 0px;
+    width: 100%;
+    height: 40px;
+    font-size: 2vh;
+    font-family: 'Roboto';
+    color: var(--emotion-color);
+    padding: 1vh;
+}
+
+.message:nth-child(even) {
+    background-color: #F49E4C;
+    border: 3px solid #F49E4C;
+    width: 20vw;
+    border-radius: 15px;
+    margin-top: 30px;
+    margin-left: 30px;
+}
+
+.user-message {
+    background-color: #F49E4C;
+    color: black;
+    border: 10px solid #F49E4C;
+    width: 20vw;
+    border-radius: 15px;
+    margin-top: 30px;
+    margin-left: 30px;
+}
+
+.sentiment-message {
+    background-color: #3066BE;
+    border: 10px solid #3066BE;
+    border-radius: 15px;
+    width: 20vw;
+    margin-left: 70vw;
+}
+
+.message:nth-child(odd) {
+    background-color: #3066BE;
+    border: 3px solid #3066BE;
+    border-radius: 15px;
+    width: 20vw;
+    margin-left: 70vw;
+}
