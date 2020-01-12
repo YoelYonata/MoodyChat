@@ -27,7 +27,7 @@ body {
 header {
     padding-top: 10px;
     text-align: center;
-    background-color: #7FB7BE;
+    background-color: #c0e9fa;
 }
 
 h1 {
@@ -36,29 +36,29 @@ h1 {
 }
 
 div#change_username, section#input_zone {
-    border: 5px outset #7FB7BE;
+    border: 5px outset #c0e9fa;
 }
 
 div#change_username {
     height: 3%;
     display: inline-block;
-    background-color: #7FB7BE;
+    background-color: #c0e9fa;
 }
 
 section#chatroom {
-    border: 5px inset #7FB7BE;
-    height: 85%;
+    border: 5px inset #c0e9fa;
+    height: 80%;
     overflow: auto;
 }
 
 section#username-field{
-    background-color: #7FB7BE;  
+    background-color: #c0e9fa;  
 }
 
 section#input_zone {
-    height: 7%;
+    height: 8%;
     text-align: center;
-    background-color: #7FB7BE;
+    background-color: #c0e9fa;
 }
 
 .vertical-align {
@@ -70,14 +70,15 @@ section#input_zone {
 }
 
 input#username {
-    font-family: 'Roboto';
+    font-family: Arial;
+
 }
 
 input#message {
     display: inline-block;
     width: 88%;
     height: 70%;
-    font-family: 'Roboto';
+    font-family: 'Arial';
     font-size: 2vh;
 }
 
@@ -114,6 +115,8 @@ p.message {
     border-radius: 15px;
     margin-top: 30px;
     margin-left: 30px;
+    font-family: 'Roboto'; 
+
 }
 
 .sentiment-message {
@@ -122,6 +125,8 @@ p.message {
     border-radius: 15px;
     width: 20vw;
     margin-left: 70vw;
+    font-family: 'Roboto';
+
 }
 
 .message:nth-child(odd) {
@@ -130,4 +135,18 @@ p.message {
     border-radius: 15px;
     width: 20vw;
     margin-left: 70vw;
+}
+
+.user-message:after {
+	content: '';
+	position: absolute;
+	left: 0;
+	top: 50%;
+	width: 0;
+	height: 0;
+	border: 20px solid transparent;
+	border-right-color: #00aabb;
+	border-left: 0;
+	margin-top: -20px;
+	margin-left: -20px;
 }
