@@ -1,5 +1,4 @@
 # Moody Chat! 
-===================
 
 Hey! This is a simple chatbox with Google Natural Language Processing API for nwHacks 2020. 
 
