@@ -59,39 +59,43 @@
 			console.log("-1.0 < data.score < -0.8")
 			chatroom.append("<p class='sentiment-message' style='font-family: Arial;background-color: #AE1807; border-color: #AE1807;'>" + "<strong>Mood score: </strong>" + n +"</p>")
 		}
-		else if ((-0.8 >= n) && (n < -0.6)) {
+		else if ((n >= -0.8) && (n < -0.6)) {
 			console.log("-0.8 < data.score < -0.6")
 			chatroom.append("<p class='sentiment-message' style='font-family: Arial;background-color: #C23020; border-color: #C23020;'>" + "<strong>Mood score: </strong>" + n +"</p>")
 		}
-		else if ((-0.6 >= n) && (n < -0.4)) {
+		else if ((n >= -0.6) && (n < -0.4)) {
 			console.log("-0.6 < data.score < -0.4")
 			chatroom.append("<p class='sentiment-message' style='font-family: Arial;background-color: #D05447; border-color: #D05447;'>" + "<strong>Mood score: </strong>" + n +"</p>")
 		}
-		else if ((-0.4 >= n) && (n < -0.2)) {
+		else if ((n >= -0.4) && (n < -0.2)) {
 			console.log("-0.4 < data.score < -0.2")
 			chatroom.append("<p class='sentiment-message' style='font-family: Arial;background-color: #DA756A; border-color: #DA756A;'>" + "<strong>Mood score: </strong>" + n +"</p>")
 		}
-		else if ((-0.2 >= n) && (n < 0)) {
+		else if ((n >= -0.2) && (n < 0.0)) {
 			console.log("-0.2 < data.score < 0")
 			chatroom.append("<p class='sentiment-message' style='font-family: Arial;background-color: #E09C95; border-color: #E09C95;'>" + "<strong>Mood score: </strong>" + n +"</p>")
 		}
-		else if ((0 >= n) && (n < 0.2)) {
+		else if (n==0) {
+			console.log("adata.score = 0")
+			chatroom.append("<p class='sentiment-message' style='font-family: Arial;background-color: #E5E5E5; border-color: #E5E5E5;'>" + "<strong>Mood score: </strong>" + n +"</p>")
+		}		
+		else if ((0.0 < n) && (n < 0.2)) {
 			console.log("0 < data.score < 0.2")
 			chatroom.append("<p class='sentiment-message' style='font-family: Arial;background-color: #A6BEDE; border-color: #A6BEDE;'>" + "<strong>Mood score: </strong>" + n +"</p>")
 		}
-		else if ((0.2 >= n) && (n < 0.4)) {
+		else if ((n >= 0.2) && (n < 0.4)) {
 			console.log("0.2 < data.score < 0.4")
 			chatroom.append("<p class='sentiment-message' style='font-family: Arial;background-color: #799ED0; border-color: #799ED0;'>" + "<strong>Mood score: </strong>" + n +"</p>")
 		}
-		else if ((0.4 >= n) && (n < 0.6)) {
+		else if ((n >= 0.4) && (n < 0.6)) {
 			console.log("0.4< data.score < 0.6")
 			chatroom.append("<p class='sentiment-message' style='font-family: Arial;background-color: #4F86D0; border-color: #4F86D0;'>" + "<strong>Mood score: </strong>" + n +"</p>")
 		}
-		else if ((0.6 >= n) && (n < 0.8)) {
+		else if ((n >= 0.6) && (n < 0.8)) {
 			console.log("0.6 < data.score < 0.8")
 			chatroom.append("<p class='sentiment-message' style='font-family: Arial;background-color: #2C71CE; border-color: #2C71CE;'>" + "<strong>Mood score: </strong>" + n +"</p>")
 		}
-		else if ((0.8 >= n) && (n < 1)) {
+		else if ((n >= 0.8) && (n < 1)) {
 			console.log("0.8 < data.score < 1")
 			chatroom.append("<p class='sentiment-message' style='font-family: Arial;background-color: #045BCF; border-color: #045BCF;'>" + "<strong>Mood score: </strong>" + n +"</p>")
 		}

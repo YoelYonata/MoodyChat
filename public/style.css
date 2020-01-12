@@ -50,7 +50,6 @@ div#change_username {
 section#chatroom {
     border: 5px inset #c0e9fa;
     height: 78%;
-    width: 80%;
     overflow: auto;
 }
 
