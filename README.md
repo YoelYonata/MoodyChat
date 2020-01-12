@@ -1,20 +1,19 @@
-Simple App Chat
+#Moody Chat! 
 ===================
 
+Hey! This is a simple chatbox with Google Natural Language Processing API for nwHacks 2020. 
 
-Hey! Here is my first application using node.js (express) and socket.io. It is a simple **chat app**. 
+We used express, socket.io, node.js, Google Cloud/API, HTML, CSS, and JavaScript.
 
-You can read the medium blog post to follow the explanations : https://medium.com/@noufel.gouirhate/build-a-simple-chat-app-with-node-js-and-socket-io-ea716c093088
+##Inspiration
+Asperger Syndrome is a disorder that classifies under the autism spectrum. It is most commonly know to affect people’s social interaction and their ability to read other people’s emotions. This usually puts a strain on personal relationships, as affected people are typically more blunt in their expressions.
 
-# Run App
+##What it does
+With moody chat, the chatbox explicitly indicates the overall tone of a message using Google's Natural Language API, and reflects that tone in the form of chat bubble colour.
 
-1) Download Repo
+##How we built it
+We brainstormed ideas, and wanted to incorporate a Google ML API technology into our project with the goal of leveraging human connection for social good. We built a simple chatbox interface using Node.js and socket.io, and used the Express framework to connect everything together with HTML, CSS, and Javascript. The Google Natural Language Processing API is called in app.js and returns a sentiment score and magnitude.
 
-2) Install [Node.JS](https://nodejs.org/en/) 
+##Challenges we ran into
+Setting up all the Google projects, client libraries, keys, etc. and getting authorization! We tried several different chatbox interfaces before we were able to run one smoothly.
 
-3) Install Dependencies - NPM Install
-
-
-# Run NPM START 
-
-and browse https://localhost:port
