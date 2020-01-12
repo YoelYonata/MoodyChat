@@ -55,7 +55,7 @@
 		// negative is red
 		// positive is blue 
 
-		if ((-1.0 >= n) && (n < -0.8)) {
+		if ((n >= -1.0) && (n < -0.8)) {
 			console.log("-1.0 < data.score < -0.8")
 			chatroom.append("<p class='sentiment-message' style='font-family: Arial;background-color: #AE1807; border-color: #AE1807;'>" + "<strong>Mood score: </strong>" + n +"</p>")
 		}
