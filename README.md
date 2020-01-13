@@ -1,8 +1,8 @@
 # Moody Chat! 
 
-Hey! This is a simple chatbox with Google Natural Language Processing API for nwHacks 2020. 
+Hey! This is a simple chatbox with Google Natural Language Processing API for nwHacks 2020. The devpost can be found [here] (https://devpost.com/software/moody-chat) - feel free to run it on localhost!
 
-We used express, socket.io, node.js, Google Cloud/API, HTML, CSS, and JavaScript.
+We used express, socket.io, node.js, Google Cloud/API, HTML, CSS, and JavaScript. 
 
 ## Inspiration
 Asperger Syndrome is a disorder that classifies under the autism spectrum. It is most commonly know to affect people’s social interaction and their ability to read other people’s emotions. This usually puts a strain on personal relationships, as affected people are typically more blunt in their expressions.
