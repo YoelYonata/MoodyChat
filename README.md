@@ -1,6 +1,6 @@
 # Moody Chat! 
 
-Hey! This is a simple chatbox with Google Natural Language Processing API for nwHacks 2020. The devpost can be found [here] (https://devpost.com/software/moody-chat) - feel free to run it on localhost!
+Hey! This is a simple chatbox with Google Natural Language Processing API for nwHacks 2020. The devpost can be found [here](https://devpost.com/software/moody-chat) - feel free to run it on localhost!
 
 We used express, socket.io, node.js, Google Cloud/API, HTML, CSS, and JavaScript. 
 
